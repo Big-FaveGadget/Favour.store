@@ -370,7 +370,7 @@ cable6: {
     "meeplus-removebg-preview.png"
   ],
   description: "This BLUSMART 30W Type-C to Lightning Charge Cable (Model: BS-014) is the ideal high-speed charging accessory engineered to get your Apple devices powered up in no time. Delivering a powerful 30W output, it fully utilizes Power Delivery (PD) fast charging to juice up your iPhone or iPad significantly faster than standard cords—taking your battery from zero to half full in just minutes.",
-  colors: []
+   types: ["type-c","iPhone"]
 },
 
 cable7: {
