@@ -381,7 +381,7 @@ cable7: {
     "blus652-removebg-preview.png",
     "blus65-removebg-preview.png"
   ],
-  description: "This BLUSMART 65W Type-C to Lightning Charge Cable (Model: BS-0001) is the ideal high-speed charging accessory engineered to get your Apple devices powered up in no time. Delivering a powerful 30W output, it fully utilizes Power Delivery (PD) fast charging to juice up your iPhone or iPad significantly faster than standard cords—taking your battery from zero to half full in just minutes.",
+  description: "This BLUSMART 65W Type-C to Type-c (Model: BS-0001) is the ideal high-speed charging accessory engineered to get your Apple devices powered up in no time. Delivering a powerful 30W output, it fully utilizes Power Delivery (PD) fast charging to juice up your iPhone or iPad significantly faster than standard cords—taking your battery from zero to half full in just minutes.",
     types: ["type-c","iPhone"]
 },
 cable8: {
