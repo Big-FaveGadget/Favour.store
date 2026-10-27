@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product preview | Big-Fave</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Big-Fave home">
+      <span class="brand-mark">BF</span>
+      <span class="brand-name">BIG-FAVE<small>ALL IN ONE GADGET STORE</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+     <a href="index.html" aria-current="page">Home</a>
+      <a href="shop.html" aria-current="page">Shop</a>
+      <a href="electric-fan.html" aria-current="page">Electric fans</a>
+       <a href="earphones.html" aria-current="page">Audio Accessories</a>
+       <a href="completecharger.html" aria-current="page">Complete charger</a>
+       <a href="cable.html" aria-current="page">Charging Cables</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to bright mode">
+        ☀️ <span>Bright mode</span>
+      </button>
+      <a class="cart-link" href="cart.html">Cart <span id="cartCount">0</span></a>
+    </div>
+  </header>
+
+  <main class="product-page">
+    <a class="plain-link back-link" href="shop.html">← Back to shop</a>
+
+    <section class="product-preview">
+      <div class="preview-gallery">
+        <div class="preview-main-image">
+          <img id="productImage" src="sample-product.jpg" alt="Product preview">
+        </div>
+        <div class="preview-thumbnails" id="productThumbnails">
+          <button class="thumbnail active" type="button" aria-label="View product image 1">
+            <img src="sample-product.jpg" alt="">
+          </button>
+          <button class="thumbnail" type="button" aria-label="View product image 2">
+            <img src="sample-product-2.jpg" alt="">
+          </button>
+          <button class="thumbnail" type="button" aria-label="View product image 3">
+            <img src="sample-product-3.jpg" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="preview-details">
+        <p class="eyebrow" id="productCategory">PRODUCT CATEGORY</p>
+        <h1 id="productName">Sample product name</h1>
+        <p class="preview-price" id="productPrice">Add your price</p>
+        <p class="preview-description" id="productDescription">
+          Product details will appear here. You can add information about the
+          product, its features, and what comes in the box.
+        </p>
+
+        <label class="option-label" for="productType" hidden>Choose connector type</label>
+        <select id="productType" hidden></select>
+
+        <label class="option-label" for="productColor">Choose a color</label>
+        <select id="productColor">
+          <option value="Black">Black</option>
+          <option value="White">White</option>
+          <option value="Silver">Silver</option>
+        </select>
+
+        <label class="option-label" for="productQuantity">Quantity</label>
+        <div class="quantity-control">
+          <button id="quantityMinus" type="button" aria-label="Decrease quantity">−</button>
+          <input id="productQuantity" type="number" min="1" value="1" inputmode="numeric">
+          <button id="quantityPlus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+
+        <button class="button button-primary add-preview-to-cart" id="addToCart" type="button">
+          Add to cart
+        </button>
+        <p class="cart-message" id="cartMessage" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer-redesigned">
+  <div class="footer-main">
+    <div class="footer-about">
+      <a class="brand" href="index.html" aria-label="Big-Fave home">
+        <span class="brand-mark">BF</span>
+        <span class="brand-name">BIG-FAVE<small>ALL IN ONE GADGET STORE</small></span>
+      </a>
+      <p>Shop phones, TVs, bikes, chargers, charger heads, cables, power banks, electric fans, audio accessories, USB drives, and more.</p>
+    </div>
+
+    <div class="footer-column">
+      <h2>Quick links</h2>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop all</a>
+      <a href="phone.html">Phones</a>
+      <a href="electric-fan.html">Electric fans</a>
+      <a href="completecharger.html">Complete chargers</a>
+      <a href="cable.html">Charging cables</a>
+      <a href="chargerhead.html">Charger heads</a>
+      <a href="powerbank.html">Power banks</a>
+      <a href="earphones.html">Audio accessories</a>
+      <a href="Storagedevice.html">USB drives</a>
+    </div>
+
+    <div class="footer-column footer-request">
+      <h2>Can’t find what you need?</h2>
+      <p>If you cannot find a gadget, tell us what you need and we will try to get it for you.</p>
+      <a class="footer-cta" href="contact.html">Request a product <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="footer-column footer-social">
+      <h2>Connect with us</h2>
+      <a href="https://www.tiktok.com/@favour.gadget" target="_blank" rel="noopener noreferrer">TikTok <span>@favour.gadget</span></a>
+      <a href="https://wa.me/2347069214732" target="_blank" rel="noopener noreferrer">WhatsApp <span>Chat with Big-Fave</span></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <small>© <span id="year"></span> Big-Fave</small>
+    <small>Gadgets for everyday life.</small>
+  </div>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
