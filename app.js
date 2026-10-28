@@ -277,7 +277,7 @@ charger7: {
     "45w.jpg"
   ],
   description: " A highly portable, versatile dual-port wall adapter designed for rapid and efficient power delivery across multiple devices.",
-  colors: []
+  colors: ["Black","White"]
 },
 audio4: {
   name: "Ultrapods max",
