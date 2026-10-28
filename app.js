@@ -179,7 +179,7 @@ audio7: {
   category: "Audio Accessories",
   price:2500,
   images: [
-  
+  "sss.webp",
     "jamaxear1"
   ],
   description: "The Jamax earpiec is an affordable wired in-ear earpiece designed with a contoured plastic shape that mirrors the human ear for a secure fit Smart Gadget Shop. It features a lightweight cable with an integrated in-line remote capsule for hands-free calling and volume control, while delivering clear vocal clarity and punchy bass for casual everyday music listening .It serves as a straightforward, budget-friendly replacement accessory for modern smartphones.",
