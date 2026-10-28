@@ -260,7 +260,7 @@ charger5: {
 charger6: {
   name: "AAA Fast car Charger",
   category: "Complete Charger",
-  price:2500,
+  price:3000,
   images: [
     "ccar2.jpeg",
     "car1.jpeg"
@@ -311,7 +311,7 @@ cable1: {
     "shplusiphone.jfif",
     "shplus iphone.jpg"
   ],
-  description: "The Ultrapods Max 5.3 are ultra-budget, true wireless stereo (TWS) earbuds most recognizable for their distinctive, see-through transparent design that reveals the inner components of both the earbuds and the charging case. They use Bluetooth 5.3 to deliver a stable wireless connection, faster pairing, and low battery consumption at an entry-level price point.",
+  description: "2A Fast Charging – Powers up your device quickly and efficiently 1M Length – Perfect for flexible use at home, in the office, or in the car.",
     types: ["iPhone", "Micro-USB","Type-c"],
 
 },
@@ -451,7 +451,7 @@ bank2: {
 bank3: {
   name: "FrankDisk 22.5w 30000mAh Fast Charging Power Bank",
   category: "Power Bank",
-  price:16500,
+  price:24500,
   images: [
   
     "frank30.webp",
