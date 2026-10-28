@@ -224,7 +224,7 @@ charger2: {
   category: "Complete Charger",
   price:4000,
   images: [
-    "shplu452.JPG",
+    "shplu452",
     "shplu4522.jpg"
   ],
   description: "this is a high-speed UK-plug wall adapter packaged with a Type-C cable, designed to safely and rapidly power up smartphones and tablets. It features 45W maximum output and an Intelligent Auto-ID chip that automatically detects your connected device to deliver the optimal, safest charging speed. For added safety, the unit is constructed with a fire-retardant housing to protect against over-voltage and overheating.",
