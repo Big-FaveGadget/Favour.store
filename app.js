@@ -412,7 +412,7 @@ cable9: {
 adapter1: {
   name: "iPhone 17 Pro Max 35W Power Adapter",
   category: "Power Bank",
-  price:1500,
+  price:5000,
   images: [
   
     "adapter2-removebg-preview.png",
