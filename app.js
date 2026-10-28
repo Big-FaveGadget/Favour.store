@@ -174,7 +174,17 @@ audio6: {
   description: "The Ear X is an affordable wired in-ear earpiece designed with a contoured plastic shape that mirrors the human ear for a secure fit Smart Gadget Shop. It features a lightweight cable with an integrated in-line remote capsule for hands-free calling and volume control, while delivering clear vocal clarity and punchy bass for casual everyday music listening . Available with a Lightning connector, it serves as a straightforward, budget-friendly replacement accessory for modern iOS smartphones.",
   colors: []
 },
-
+audio7: {
+  name: "Jamax earpiece",
+  category: "Audio Accessories",
+  price:2500,
+  images: [
+  
+    "jamaxear1"
+  ],
+  description: "The Jamax earpiec is an affordable wired in-ear earpiece designed with a contoured plastic shape that mirrors the human ear for a secure fit Smart Gadget Shop. It features a lightweight cable with an integrated in-line remote capsule for hands-free calling and volume control, while delivering clear vocal clarity and punchy bass for casual everyday music listening .It serves as a straightforward, budget-friendly replacement accessory for modern smartphones.",
+  colors: []
+},
 audio8: {
   name: "Itel MG-S28",
   category: "Audio Accessories",
