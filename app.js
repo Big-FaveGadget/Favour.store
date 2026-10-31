@@ -499,9 +499,7 @@ bank4: {
   images: [
     "yotta.jpg"
   ],
-  description: "The Yotta10 delivers 10,000mAh of reliable power with 22.5W PD fast charging, dual USB outputs, and Micro-USB input, letting you charge two devices simultaneously. Its sleek, wear-resistant design, analog power display, and temperature and overcharge protection make it a dependable everyday charging companion.
-
-Stay powered. Stay ready. Get your Yotta10 today.",
+  description: "The Yotta10 delivers 10,000mAh of reliable power with 22.5W PD fast charging, dual USB outputs, and Micro-USB input, letting you charge two devices simultaneously. Its sleek, wear-resistant design, analog power display, and temperature and overcharge protection make it a dependable everyday charging companion.Stay powered. Stay ready. Get your Yotta10 today.",
 
 },
 };
