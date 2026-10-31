@@ -481,6 +481,29 @@ bank4: {
   description: "The Oraimo PowerJet 501 (OPB-750SQ) is an ultra-high capacity, 50,000mAh (185Wh) portable power bank engineered by Oraimo to deliver heavy-duty backup power for smartphones, tablets, and compatible Type-C laptops",
 
 },
+  bank5: {
+  name: "Poga (65000mAh) Powerbank ",
+  category: "Power Bank",
+  price:50900,
+  images: [
+    "poga65.png",
+    "poga652-removebg-preview.png"
+  ],
+  description: "65,000mAH Fast charge Power bank with LED display and torchlight. 5V/2.1A triple USB outputs. 22.5W PD. Type-C & Micro-USB inputs. Temperature and Overcharge protection. Large capacity Polymer batteries. with handling Strap.",
+
+},
+    bank6: {
+  name: "Yotta10 10,000mAh Powerbank ",
+  category: "Power Bank",
+  price:9500,
+  images: [
+    "yotta.jpg"
+  ],
+  description: "The Yotta10 delivers 10,000mAh of reliable power with 22.5W PD fast charging, dual USB outputs, and Micro-USB input, letting you charge two devices simultaneously. Its sleek, wear-resistant design, analog power display, and temperature and overcharge protection make it a dependable everyday charging companion.
+
+Stay powered. Stay ready. Get your Yotta10 today.",
+
+},
 };
 
 
