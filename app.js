@@ -495,7 +495,7 @@ bank4: {
     bank6: {
   name: "Yotta10 10,000mAh Powerbank ",
   category: "Power Bank",
-  price:11000,
+  price:11500,
   images: [
     "yotta.jpg"
   ],
