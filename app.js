@@ -794,28 +794,7 @@ if (productRequestForm) {
       messageElement.textContent = "WhatsApp opened with your request. Review it and press Send to send it to Big-Fave.";
     }
   });
-}
-const popupOverlay = document.getElementById("popupOverlay");
-const closeBtn = document.getElementById("closeBtn");
-const continueBtn = document.getElementById("continueBtn");
-
-if (popupOverlay) {
-  if (sessionStorage.getItem("popupClosed") === "yes") {
-    popupOverlay.style.display = "none";
-  }
-
-  function closePopup() {
-    popupOverlay.style.display = "none";
-    sessionStorage.setItem("popupClosed", "yes");
-  }
-
-  if (closeBtn) closeBtn.addEventListener("click", closePopup);
-  if (continueBtn) continueBtn.addEventListener("click", closePopup);
-}
-
-
-
-// Cart page: display saved items and manage quantities.
+}// Cart page: display saved items and manage quantities.
 const cartItemsContainer = document.querySelector("#cartItems");
 const cartSubtotalElement = document.querySelector("#cartSubtotal");
 const cartDeliveryFeeElement = document.querySelector("#cartDeliveryFee");
